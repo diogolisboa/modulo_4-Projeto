@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <title>ToDo Task</title>
+</head>
+<body>
+  <h1>Lista de Tarefas</h1>
+  <form class="addTask"> 
+    <label for="add"> Tarefas: </label>
+    <input type="text" id='add'> 
+    <button id="addBtn"> Add </button>
+</form>
+<main>
+  <section class="left">
+    <div class="unchecked"> 
+      <h2> ToDo </h2>
+      <ul id="toDo"></ul>
+  </div>
+  </section>
+  <section class='right'>
+    <div class="checked">
+      <h2> Done </h2>
+      <ul id="tasksDone"></ul>
+  </section>
+</main>
+
+<p style="text-decoration: line-through;"></p>
+
+</div>
+<script src="script.js"></script>
+    
+</body>
+
+</html>
